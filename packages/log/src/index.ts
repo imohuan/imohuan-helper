@@ -11,7 +11,7 @@ let defaultOption: LogOption = {
   prefix: "$",
   objectLen: 100,
   format: "{prefix} {date} {label} {level} {msg}",
-  dirname: resolve(process.cwd(), "log"),
+  dirname: resolve(process.cwd(), "logs"),
   dateFormat: "YYYY-MM-DD hh:ss:mm"
 };
 
