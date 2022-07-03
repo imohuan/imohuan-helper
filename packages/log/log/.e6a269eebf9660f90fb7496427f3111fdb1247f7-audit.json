@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "G:\\Npm\\imohuan-helper\\packages\\log\\log\\.e6a269eebf9660f90fb7496427f3111fdb1247f7-audit.json",
+    "files": [
+        {
+            "date": 1656858672966,
+            "name": "G:\\Npm\\imohuan-helper\\packages\\log\\log\\2022-07-03-Info.log",
+            "hash": "ce94f8e3645bc5b7ee4f3712e97eb9c2990d6fa4fabd344de31912671d567d90"
+        }
+    ],
+    "hashType": "sha256"
+}

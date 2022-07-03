@@ -1,0 +1,30 @@
+{
+  "name": "vite-lib",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "homepage": "",
+  "keywords": [],
+  "license": "ISC",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/lib-cjs.js",
+  "module": "./dist/lib-es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib-es.js",
+      "require": "./dist/lib-cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+  }
+}

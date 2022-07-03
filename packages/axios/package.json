@@ -1,0 +1,33 @@
+{
+  "name": "@imohuan/aria2c",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "homepage": "",
+  "keywords": [],
+  "license": "ISC",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/lib-cjs.js",
+  "module": "./dist/lib-es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib-es.js",
+      "require": "./dist/lib-cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "aria2": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.0.1",
+    "fs-extra": "^10.1.0"
+  }
+}

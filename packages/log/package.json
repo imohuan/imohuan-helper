@@ -1,0 +1,33 @@
+{
+  "name": "@imohuan/log",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "homepage": "",
+  "keywords": [],
+  "license": "ISC",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/lib-cjs.js",
+  "module": "./dist/lib-es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib-es.js",
+      "require": "./dist/lib-cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "moment": "^2.29.3",
+    "strip-ansi": "^7.0.1",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
